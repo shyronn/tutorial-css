@@ -10,6 +10,7 @@ selector {
     property: value
 
 }
+
 Each selector is paired with an element. For Example:
 
 html {} is paired with and styles <html>
@@ -63,9 +64,11 @@ ol{
 li {
     color: #F00;
 }
+
 ol li:first-child {
     background-color: #000;
 }
+
 ol li:last-child {
-    background-color: F90;
+    background-color: #F90;
 }
